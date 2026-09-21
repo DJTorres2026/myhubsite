@@ -321,3 +321,12 @@ input:focus, select:focus {
     grid-template-columns: 1fr;
   }
 }
+/* Premium page */
+.premium-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.1rem;
+}
+@media (max-width: 720px) {
+  .premium-grid { grid-template-columns: 1fr; }
+}
