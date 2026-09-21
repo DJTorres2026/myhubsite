@@ -545,3 +545,30 @@ body.lightbox-open { overflow: hidden; }
   .feature-thumb { max-height: 180px; }
 }
 
+
+
+/* Device clarity banners */
+.device-banner {
+  display: inline-block;
+  margin: 0 0 0.75rem;
+  padding: 0.4rem 0.85rem;
+  border-radius: 999px;
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+}
+.device-banner-desktop {
+  background: #ebe0cc;
+  border: 1px solid var(--border);
+  color: var(--green-dark);
+}
+.device-banner-phone {
+  background: #dceadf;
+  border: 1px solid #b7cfc0;
+  color: var(--green-dark);
+}
+.phone-cover { max-width: 220px; margin: 0 auto; aspect-ratio: 9 / 16; max-height: none; }
+.phone-gallery .phone-card img { aspect-ratio: 9 / 16; }
+@media (min-width: 721px) {
+  .phone-gallery { grid-template-columns: repeat(4, 1fr); max-width: 56rem; }
+}
