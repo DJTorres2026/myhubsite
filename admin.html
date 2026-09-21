@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Admin Browse · My Hub</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="index.html">My <span>Hub</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <ul class="nav-links" id="site-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="wallpapers.html">animal wallpaper pack</a></li>
+        <li><a href="calculator.html">BMR calculator</a></li>
+        <li><a href="videos.html">funny AI videos</a></li>
+        <li><a href="premium.html">Premium</a></li>
+      </ul>
+    </div>
+  </header>
+  <main>
+    <h1 class="page-title">Wallpaper admin browse</h1>
+    <p class="page-sub">Private browse view for the current wallpaper assets.</p>
+    <section class="card admin-login-card">
+      <form id="admin-login">
+        <label for="admin-password">Admin password
+          <input id="admin-password" type="password" inputmode="numeric" autocomplete="off" required />
+        </label>
+        <button class="btn btn-primary" type="submit">Unlock</button>
+        <p id="admin-error" class="admin-error" role="alert" aria-live="polite"></p>
+      </form>
+    </section>
+    <section id="admin-manager" class="card" hidden>
+      <h2 class="gallery-heading">Current wallpaper files</h2>
+      <div id="wallpaper-list" class="admin-grid"></div>
+      <p class="soft-note">To permanently add or delete files, edit <code>Desktop\MyHubSite\assets</code> or the GitHub repo <code>assets</code> folder. Static Netlify has no server file admin.</p>
+    </section>
+  </main>
+  <footer class="site-footer"><p><a href="wallpapers.html">Back to wallpapers</a> · My Hub</p></footer>
+  <script src="js/nav.js"></script>
+  <script src="js/admin.js"></script>
+</body>
+</html>
