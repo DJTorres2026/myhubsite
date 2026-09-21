@@ -21,18 +21,40 @@
     </div>
   </header>
   <main>
-    <section class="hero-card">
-      <img class="hero-media" src="assets/animal-wallpapers-cover.jpg" alt="Animal Wallpapers Pack preview" />
-      <p class="hook">AI-made comedy, fresh macros, and animal wallpapers</p>
-      <p class="lead">One cozy spot for tips, free tools, and digital downloads.</p>
-      <div style="display:flex;flex-wrap:wrap;gap:0.6rem">
-        <a class="btn btn-primary" href="wallpapers.html">Browse wallpapers</a>
-        <a class="btn btn-ghost" href="videos.html">Watch clips</a>
-        <a class="btn btn-ghost" href="calculator.html">BMR calculator</a>
-        <a class="btn btn-primary" href="premium.html">Go Premium</a>
+    <section class="hero-card hero-compact">
+      <p class="hook" style="margin-top:0">My Hub</p>
+      <p class="lead">Wallpapers, macros, and funny clips — each with its own space below.</p>
+      <div class="hero-actions">
+        <a class="btn btn-ghost" href="premium.html">Go Premium</a>
       </div>
-      <p class="soft-note">Hero is a still image on purpose — no broken video tag. Drop a muted <code>assets/hero-video.mp4</code> later if you want motion.</p>
     </section>
+
+    <section class="feature-grid" aria-label="Main sections">
+      <article class="card feature-card feature-wallpapers">
+        <p class="feature-kicker">01 · Screens</p>
+        <h2 class="feature-title">Animal wallpaper pack</h2>
+        <img class="feature-thumb" src="assets/animal-wallpapers-cover.jpg" alt="Animal wallpapers preview" />
+        <p class="lead">Twenty-three high-res animal wallpapers. Browse the gallery, zoom any image, buy the pack when you’re ready.</p>
+        <a class="btn btn-primary" href="wallpapers.html">Open wallpapers</a>
+      </article>
+
+      <article class="card feature-card feature-bmr">
+        <p class="feature-kicker">02 · Fuel</p>
+        <h2 class="feature-title">BMR calculator</h2>
+        <p class="feature-icon" aria-hidden="true">⌀</p>
+        <p class="lead">Free Mifflin–St Jeor calculator with calorie and macro estimates. Runs in your browser — nothing is sent anywhere.</p>
+        <a class="btn btn-primary" href="calculator.html">Open BMR calculator</a>
+      </article>
+
+      <article class="card feature-card feature-videos">
+        <p class="feature-kicker">03 · Laughs</p>
+        <h2 class="feature-title">Funny AI videos</h2>
+        <img class="feature-thumb" src="assets/olongapo-og.jpg" alt="Funny AI videos preview" />
+        <p class="lead">Image cards linking to free clips and the Olongapo screening room — no broken local video tags.</p>
+        <a class="btn btn-primary" href="videos.html">Open funny AI videos</a>
+      </article>
+    </section>
+
     <section class="home-grid">
       <div class="card qr-wrap">
         <h2 style="margin:0;color:var(--green-dark)">Cash App</h2>
