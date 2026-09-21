@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Videos · My Hub</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="index.html">My <span>Hub</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <ul class="nav-links" id="site-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="wallpapers.html">Wallpapers</a></li>
+        <li><a href="calculator.html">Calculator</a></li>
+        <li><a class="active" href="videos.html">Videos</a></li>
+      </ul>
+    </div>
+  </header>
+  <main>
+    <h1 class="page-title">Videos</h1>
+    <p class="page-sub">Clips live on Olongapo. This page uses image cards and links only — no local video files — so the browser never throws a MIME / format error here.</p>
+    <section class="video-grid">
+      <article class="video-card">
+        <img src="assets/olongapo-og.jpg" alt="Olongapo screening room" />
+        <div class="body">
+          <h2>Olongapo clips</h2>
+          <p>Short clips from the Philippines, late 1980s — free to watch on olongapo.grok.me.</p>
+          <a class="btn btn-primary" href="https://olongapo.grok.me/#clips" target="_blank" rel="noopener">Open free clips</a>
+        </div>
+      </article>
+      <article class="video-card">
+        <img src="assets/olongapo-og.jpg" alt="Olongapo home" />
+        <div class="body">
+          <h2>Olongapo home</h2>
+          <p>Full screening room with tip jar and guestbook.</p>
+          <a class="btn btn-primary" href="https://olongapo.grok.me/" target="_blank" rel="noopener">Visit site</a>
+        </div>
+      </article>
+    </section>
+    <p class="soft-note">When you have direct .mp4 links or files, send them over and I’ll add proper HTML5 players with <code>type="video/mp4"</code>.</p>
+  </main>
+$foot
+  <script src="js/nav.js"></script>
+</body>
+</html>
