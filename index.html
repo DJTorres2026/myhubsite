@@ -13,7 +13,7 @@
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
       <ul class="nav-links" id="site-nav">
         <li><a class="active" href="index.html">Home</a></li>
-        <li><a href="wallpapers.html">animal wallpaper pack</a></li>
+        <li><a href="wallpapers.html">Wallpapers</a></li>
         <li><a href="calculator.html">BMR calculator</a></li>
         <li><a href="videos.html">funny AI videos</a></li>
         <li><a href="premium.html">Premium</a></li>
@@ -22,39 +22,54 @@
   </header>
   <main>
     <section class="hero-card hero-compact">
-      <p class="hook" style="margin-top:0">My Hub</p>
-      <p class="lead">Wallpapers, macros, and funny clips — each with its own space below.</p>
+      <p class="hook" style="margin-top:0">Welcome to My Hub</p>
+      <p class="lead">Animal wallpapers for desktop and phone, a free BMR calculator, and funny AI clips — pick what you need below.</p>
       <div class="hero-actions">
-        <a class="btn btn-ghost" href="premium.html">Go Premium</a>
+        <a class="btn btn-primary" href="wallpapers.html">Browse desktop pack</a>
+        <a class="btn btn-ghost" href="phone-wallpapers.html">Browse phone pack</a>
+        <a class="btn btn-ghost" href="premium.html">Premium preview</a>
       </div>
     </section>
 
-    <section class="feature-grid" aria-label="Main sections">
+    <section class="feature-grid feature-grid-home" aria-label="Main sections">
       <article class="card feature-card feature-wallpapers">
-        <p class="feature-kicker">01 · Screens</p>
-        <h2 class="feature-title">Animal wallpaper pack</h2>
-        <img class="feature-thumb" src="assets/animal-wallpapers-cover.jpg" alt="Animal wallpapers preview" />
-        <p class="lead">Desktop pack (landscape) and a separate <strong>Phone pack</strong> (1080×1920). Pick the one that matches your screen.</p>
-        <div style="display:flex;flex-wrap:wrap;gap:0.5rem;margin-top:auto">
-          <a class="btn btn-primary" href="wallpapers.html">Desktop pack</a>
-          <a class="btn btn-ghost" href="phone-wallpapers.html">Phone pack</a>
-        </div>
+        <p class="feature-kicker">01 · Desktop</p>
+        <h2 class="feature-title">Desktop wallpapers</h2>
+        <img class="feature-thumb" src="assets/animal-wallpapers-cover.jpg" alt="Desktop animal wallpapers preview" />
+        <p class="lead">Landscape animal pack for PC monitors — not sized for phones. Live on Gumroad for $4.99.</p>
+        <a class="btn btn-primary" href="wallpapers.html">Open desktop pack</a>
+      </article>
+
+      <article class="card feature-card feature-phone">
+        <p class="feature-kicker">02 · Phone</p>
+        <h2 class="feature-title">Phone wallpapers</h2>
+        <img class="feature-thumb feature-thumb-phone" src="assets/phone/phone-01-turtle.jpg" alt="Phone animal wallpapers preview" />
+        <p class="lead">Portrait pack at 1080×1920 for lock screens — separate from the desktop set. Product link coming soon.</p>
+        <a class="btn btn-primary" href="phone-wallpapers.html">Open phone pack</a>
       </article>
 
       <article class="card feature-card feature-bmr">
-        <p class="feature-kicker">02 · Fuel</p>
+        <p class="feature-kicker">03 · Fuel</p>
         <h2 class="feature-title">BMR calculator</h2>
         <p class="feature-icon" aria-hidden="true">⌀</p>
-        <p class="lead">Free Mifflin–St Jeor calculator with calorie and macro estimates. Runs in your browser — nothing is sent anywhere.</p>
+        <p class="lead">Free Mifflin–St Jeor macros in your browser — nothing is uploaded or stored.</p>
         <a class="btn btn-primary" href="calculator.html">Open BMR calculator</a>
       </article>
 
       <article class="card feature-card feature-videos">
-        <p class="feature-kicker">03 · Laughs</p>
+        <p class="feature-kicker">04 · Laughs</p>
         <h2 class="feature-title">Funny AI videos</h2>
         <img class="feature-thumb" src="assets/olongapo-og.jpg" alt="Funny AI videos preview" />
-        <p class="lead">Image cards linking to free clips and the Olongapo screening room — no broken local video tags.</p>
+        <p class="lead">Free Olongapo clips and more — open the screening room when you want a quick laugh.</p>
         <a class="btn btn-primary" href="videos.html">Open funny AI videos</a>
+      </article>
+
+      <article class="card feature-card feature-premium">
+        <p class="feature-kicker">05 · Upgrade</p>
+        <h2 class="feature-title">Premium</h2>
+        <p class="feature-icon" aria-hidden="true">★</p>
+        <p class="lead">Private preview of a $4.99 bundle — meal plan, bonus wallpapers, curated clips. Not for sale yet.</p>
+        <a class="btn btn-primary" href="premium.html">See Premium preview</a>
       </article>
     </section>
 
