@@ -15,7 +15,7 @@ No install or server needed for local preview.
 
 - `index.html` — Home (video, hook, Cash App QR, Buy Me a Coffee)
 - `wallpapers.html` — Animal Wallpapers Pack + Gumroad link
-- `calculator.html` — Free macro calculator (Mifflin–St Jeor)
+- `calculator.html` — Free BMR Calculator (Mifflin–St Jeor)
 - `videos.html` — AI comedy video links
 - `css/styles.css` — shared look
 - `js/nav.js` — mobile menu
